@@ -1,0 +1,86 @@
+# Linux Basics in 6 Days: One Hour a Day
+
+> Day 1 — My First Hour with Linux  
+> A Graduate (Non-IT Background) Learning Journey
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Day 1](https://img.shields.io/badge/Day-01-blue?style=for-the-badge)
+
+## The Challenge
+**I learnt Linux Basics in just 6 days — one hour each day.**  
+**What was your excuse?**
+
+## About Me
+- Background: Graduate (Non-IT)  
+- Host OS: macOS  
+- Linux Setup: Virtual Machine  
+- Daily Time: 1 Hour
+
+> Learning Linux takes will.  
+> The path is formed by the energy of will.
+
+## Day 1 Summary
+
+### Key Symbols in Linux Terminal
+
+| Symbol | Meaning                              | Represents          |
+|--------|--------------------------------------|---------------------|
+| $      | Normal User                          | Limited privileges  |
+| #      | Root / Administrator                 | Full privileges     |
+
+### Day 1 Commands Table
+
+| Command        | What It Does                              | Example                  | When to Use                              | Important Notes |
+|----------------|-------------------------------------------|--------------------------|------------------------------------------|-----------------|
+| --help         | Shows help and usage of any command       | ls --help                | When you forget how a command works      | Very useful for beginners |
+| cd             | Change Directory                          | cd Documents             | To move into folders                     | Linux is case-sensitive |
+| ls             | List files and folders                    | ls or ls -la             | To see contents of current location      | -la shows hidden files |
+| touch          | Create a new empty file                   | touch myfile.txt         | To quickly create files                  | .filename makes hidden file |
+| sudo           | Run command with admin rights             | sudo apt update          | When you get Permission Denied           | Use only when needed |
+| sudo su        | Switch to full Root user                  | sudo su                  | Need complete admin access               | Always exit after use |
+| exit           | Leave root or current session             | exit                     | After finishing admin tasks              | - |
+| apt update     | Update the package list                   | sudo apt update          | Before installing any software           | Always run this first |
+
+### Important Concepts
+
+| Topic                        | Details |
+|-----------------------------|---------|
+| Case Sensitivity            | Linux is case-sensitive. "Desktop" and "desktop" are different. |
+| Permission Denied           | Happens when you are a normal user and try admin tasks. Use sudo. |
+| Home Directory              | 70% of all work is done here. Use cd ~ to go to Home. |
+| File & Folder Colors        | Different colors show files vs folders (Blue = folder). |
+| File Permissions            | Example: drwxr-xr-x tells who can read, write or execute. |
+
+### Recommended Practice Steps (Day 1)
+
+| Step | Action |
+|------|--------|
+| 1    | Check current location |
+| 2    | List all files and folders |
+| 3    | Go to Home directory |
+| 4    | Create a new file |
+| 5    | List files again to verify |
+| 6    | Go back one folder |
+| 7    | Update system packages |
+| 8    | Exit root if used |
+
+## My Learning Note
+As a non-IT graduate using macOS and a Virtual Machine, I started from zero. In just one hour I learned how to navigate, create files, and understand user permissions.
+
+> Small consistent steps + Strong Will = Big Results.
+
+## 6-Day Roadmap
+- Day 1 — Terminal Basics & First Commands (Completed)
+- Day 2 — Filesystem & Essential Commands
+- Day 3 — File Operations and Permissions
+- Day 4 — Package Management
+- Day 5 — Processes and Users
+- Day 6 — Shell Scripting Basics
+
+---
+
+**Made with ❤️ by a Graduate (Non-IT Background)**  
+**Setup**: macOS + Virtual Machine  
+**Started**: May 2026
+
+**What’s your excuse? Start today.**
