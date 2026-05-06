@@ -78,13 +78,3 @@ If you’re also on a similar journey, feel free to share your progress.
 
 ---
 
----
-
-This version sounds professional, motivational, and authentic to your background.  
-
-Would you like any changes? For example:
-- Make the tone slightly more personal?
-- Add a short “About Me” section?
-- Change the main title?
-
-Just say the word and I’ll refine it further.
