@@ -1,0 +1,21 @@
+## Day 2 Summary (1 Hour Learning)
+
+### Day 2 Commands & Tools
+
+| Command / Tool      | Meaning                                      | Use / Example                              | Requirements / Notes |
+|---------------------|----------------------------------------------|--------------------------------------------|----------------------|
+| mv                  | Move or Rename file                          | Move file to another location              | Works with same or different file types |
+| file                | Check file type                              | Identify what kind of file it is           | Useful to verify .png, .txt, etc. |
+| nano                | Simple text editor                           | Create or edit files                       | Ctrl + O → Save<br>Ctrl + X → Exit |
+| cat                 | Display file content                         | Read what is inside a file                 | Best for small files |
+| echo                | Print output on terminal                     | Print text or variables                    | echo "Hello World" |
+| cd /                | Go to Root Directory                         | Move to the top level of the system        | Be careful here |
+| rm                  | Remove / Delete file                         | Delete files                               | Use with care |
+| rm -rf              | Force remove file or folder                  | Delete folder and all contents             | Very dangerous! Can delete everything |
+| .deb file           | Ubuntu package installer                     | Install VS Code on Ubuntu                  | Double click or use dpkg command |
+
+### Day 2 Important Notes
+- `mv` can be used both for **moving** files to another folder and **renaming** files.
+- Always double-check before using `rm -rf` — it permanently deletes without asking.
+- `nano` is beginner-friendly for editing files in the terminal.
+- Installing `.deb` packages is the common way to install software like VS Code on Ubuntu Linux.
