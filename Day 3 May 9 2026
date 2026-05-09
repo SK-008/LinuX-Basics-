@@ -1,0 +1,28 @@
+## Day 3 Summary (May 9)
+
+| Command / Action              | Correct Command / Meaning                     | Use / Example                                   | Notes |
+|-------------------------------|-----------------------------------------------|-------------------------------------------------|-------|
+| Install VS Code               | Install .deb package                          | sudo dpkg -i code_*.deb                         | Use sudo or run as root |
+| Open Firefox                  | Launch Firefox browser                        | firefox                                         | firefox google.com |
+| dpkg                          | Install .deb packages                         | sudo dpkg -i filename.deb                       | Manual package installer |
+| chmod +x                      | Make file executable                          | chmod +x filename.sh                            | Required to run scripts/programs |
+| apt install                   | Install software from repositories            | sudo apt install vlc                            | Most common installation method |
+| snap                          | Ubuntu package manager                        | sudo snap install package-name                  | Easy modern way to install apps |
+| wget                          | Download file from internet                   | wget https://example.com/file.deb               | Web get command |
+| code .                        | Open VS Code in current directory             | code .                                          | Very useful shortcut |
+| history                       | Show previous commands                        | history                                         | See command history |
+| apt-get purge                 | Completely uninstall software                 | sudo apt-get purge vlc                          | Removes program + configuration files |
+| Tab Key                       | Auto-complete                                 | Type few letters + Press Tab                    | Saves time while typing |
+
+### Day 3 Key Learnings
+- Linux is great for troubleshooting and installing software.
+- `chmod +x` is important to make any file or script executable.
+- `dpkg` is used for installing `.deb` files (like VS Code).
+- `apt install` is the standard way to install most programs.
+- `snap` is another easy package manager in Ubuntu.
+- Always use `sudo` when installing or uninstalling software.
+
+---
+
+**Day 3 Note**:  
+Today I focused on installing applications (VS Code, VLC), making files executable, and learning useful tools like `wget`, `history`, and `snap`.
